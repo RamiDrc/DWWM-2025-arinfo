@@ -4,44 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        }
+        </style>
 </head>
 <body>
     <header>
         <h1>Les balises du head</h1>
     <section>
-        <table border="1">
+        <table>
             <tr>
                 <th colspan="3">Tableau 1 : Balises du head</th>
             </tr>
             <tr>
                 <th>Balise</th>
                 <th>Description</th>
+                <th>Type de balise</th>
                 <th>Auto fermante ?</th>
+                <th>Attributs principaux (obligatoires)</th>
             </tr>
             <tr>
                 <td>link</td>
                 <td>Définit une relation entre un document HTML et une ressource externe (souvent pour lier une feuille de style CSS).</td>
+                <td>inline</td>
                 <td>oui</td>
+                <td>href, rel</td>
             </tr>
             <tr>
                 <td>meta</td>
                 <td>représente toute information de métadonnées qui ne peut pas être représentée par un des autres éléments de métadonnées (base, link, script, style ou title).</td>
+                <td>Empty</td>
                 <td>oui</td>
+                <td>charset, name, content</td>
             </tr>
             <tr>
                 <td>script</td>
                 <td>Est utilisé pour intégrer ou faire référence à un script exécutable. Cela fait généralement référence à du code JavaScript mais ce peut également être un autre type de script (par exemple WebGL).</td>
+                <td>Block</td>
                 <td>non</td>
+                <td>src, type</td>
             </tr>
             <tr>
                 <td>style</td>
                 <td>Contient des informations de mise en forme pour un document ou une partie d'un document. Par défaut, les instructions de mise en forme écrites dans cet élément sont écrites en CSS.</td>
+                <td>Block</td>
                 <td>non</td>
+                <td>type</td>
             </tr>
             <tr>
                 <td>title</td>
                 <td>Définit le titre du document (qui est affiché dans la barre de titre du navigateur ou dans l'onglet de la page). Cet élément ne peut contenir que du texte, les balises qu'il contiendrait seraient ignorées.</td>
+                <td>inline</td>
                 <td>non</td>
+                <td>Aucun</td>
             </tr>
         </table>
     
@@ -53,37 +71,51 @@
         <tr>
             <th>Balise</th>
             <th>Description</th>
+            <th>Type de balise</th>
             <th>Auto fermante ?</th>
+            <th>Attributs principaux (obligatoires)</th>
         </tr>
         <tr>
             <td>header</td>
             <td>Représente du contenu introductif, généralement un groupe de contenu introductif ou de contenu aidant à la navigation. Il peut contenir des éléments de titre, mais aussi d'autres éléments tels qu'un logo, un formulaire de recherche, le nom d'auteur, etc.</td>
+            <td>block</td>
             <td>non</td>
+            <td>Aucun</td>
         </tr>
         <tr>
             <td>nav</td>
             <td>Représente une section d'une page ayant des liens vers d'autres pages ou des fragments de cette page. Autrement dit, c'est une section destinée à la navigation dans un document (avec des menus, des tables des matières, des index, etc.).</td>
+            <td>block</td>
             <td>non</td>
+            <td>Aucun</td>
         </tr>
         <tr>
             <td>footer</td>
             <td>Représente le pied de page de la section ou de la racine de sectionnement la plus proche. Un élément footer contient habituellement des informations sur l'autrice ou l'auteur de la section, les données relatives au droit d'auteur (copyright) ou les liens vers d'autres documents en relation.</td>
+            <td>block</td>
             <td>non</td>
+            <td>Aucun</td>
         </tr>
         <tr>
             <td>section</td>
             <td>Représente une section générique d'un document, par exemple un groupe de contenu thématique. Une section commence généralement avec un titre.</td>
+            <td>block</td>
             <td>non</td>
+            <td>Aucun</td>
         </tr>
         <tr>
             <td>article</td>
             <td>Représente une composition autonome dans un document, une page, une application ou un site, destinée à être distribuée ou réutilisée de manière indépendante (par exemple, dans le cadre d'une syndication). Exemples : un message de forum, un article de magazine ou de journal, ou un article de blog, une fiche produit, un commentaire soumis par un utilisateur, un widget ou gadget interactif, ou tout autre élément de contenu indépendant.</td>
+            <td>block</td>
             <td>non</td>
+            <td>Aucun</td>
         </tr>
         <tr>
             <td>aside</td>
             <td>Représente une partie d'un document dont le contenu n'a qu'un rapport indirect avec le contenu principal du document. Les apartés sont fréquemment présents sous la forme d'encadrés ou de boîtes de légende.</td>
+            <td>block</td>
             <td>non</td>
+            <td>Aucun</td>
         </tr>
     </table>
     <section>
