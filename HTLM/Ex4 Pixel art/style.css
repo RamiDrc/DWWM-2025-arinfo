@@ -1,0 +1,153 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px 40px;
+  background-color: #068f34;
+  
+}
+.logosite {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.logo {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+.titre {
+  display: flex;
+  flex-direction: column;
+}
+header h1 {
+  color: white;
+  font-size: 2.2rem;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+header p {
+  color: white;
+  font-style: italic;
+  font-size: 1rem;
+  margin: 5px 0 0 0;
+  padding: 0;
+}
+.formulaire {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+header select {
+  padding: 10px 15px;
+  border: 2px solid #3cb371;
+  border-radius: 5px;
+  min-width: 200px;
+}
+
+
+.hero-container {
+    position: relative;
+    height: 70vh;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.7); /* Blanc à 70% d'opacité */
+    padding: 40px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 20px;
+    text-align: center;
+  }
+  .hero-content h2 {
+    color: #000000; 
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  .hero-content p {
+    color: #000000; 
+    font-size: 1.3rem;
+    margin: 0;
+  }
+  
+
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #c4c4c4;
+}
+
+
+.categories-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+    background: #ffffff;
+  }
+  
+  .categories-container h2 {
+    color: #000000;
+    text-align: center;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+  }
+  
+  .categories {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 0 40px;
+  }
+  
+  .categorie1 {
+    color: #ffffff;
+    background: #720114;
+    padding: 25px;
+    
+  }
+  .categorie2 {
+    color: #ffffff;
+    background: #e79d12;
+    padding: 25px;
+    
+  }
+  .categorie3 {
+    color: #ffffff;
+    background: #37a10d;
+    padding: 25px;
+    
+  }
+ 
+
+
+footer p {
+  color: white;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+
