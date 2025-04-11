@@ -376,7 +376,7 @@ footer ul li {
     font-size: 12px;
 }
 
-/* Responsive - écrans moyens */
+/* Responsive */
 @media (max-width: 992px) {
     .footer-logo {
         flex-basis: 100%;
@@ -385,7 +385,6 @@ footer ul li {
     }
 }
 
-/* Responsive - mobile */
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
@@ -423,7 +422,6 @@ footer ul li {
     }
 }
 
-/* Responsive - très petits écrans */
 @media (max-width: 576px) {
     blockquote {
         font-size: 20px;
