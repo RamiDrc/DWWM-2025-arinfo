@@ -1,0 +1,425 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    line-height: 1.6;
+}
+
+/* Typographie */
+h1, h2, h3, h4, blockquote {
+    font-family: 'Kaisei Decol', serif;
+}
+
+/* Structure de base */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Liens */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Listes */
+ul {
+    list-style: none;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+}
+
+/* Bannière */
+.banniere {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+/* Bouton */
+.bouton {
+    background-color: #AB864C;
+    color: #fff;
+    padding: 10px 20px;
+    border: 2px solid #fff; 
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    display: flex;
+}
+
+/* Centrer un élément */
+.centre {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/* Header */
+header {
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-width: 150px;
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+nav ul li:first-child a {
+    color: #AB864C;
+}
+
+/* Citation */
+.citation {
+    padding: 60px 0;
+    text-align: center;
+}
+
+blockquote {
+    font-size: 24px;
+    font-style: italic;
+    line-height: 1.4;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+cite {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    margin-top: 15px;
+    color: #AB864C;
+}
+
+/* Principe */
+.principe {
+    padding-bottom: 60px;
+}
+
+.encadre {
+    border: 1px solid #e5e5e5;
+    padding: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* Produits */
+.produits {
+    background-color: #AB864C;
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.produits h2 {
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.produits-liste {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.produit {
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    overflow: hidden;
+    flex: 1;
+    min-width: 300px;
+}
+
+.produit img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.produit h3 {
+    margin: 20px 0;
+    color: #AB864C;
+    font-size: 22px;
+}
+
+.produit p {
+    padding: 0 20px 30px;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* Histoire */
+.histoire {
+    padding: 80px 0;
+}
+
+.histoire-contenu {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.histoire-image {
+    flex: 1;
+}
+
+.histoire-image img {
+    border-radius: 50%;
+}
+
+.histoire-texte {
+    flex: 2;
+}
+
+.histoire-texte h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.histoire-texte p {
+    margin-bottom: 30px;
+    line-height: 1.8;
+}
+
+/* Séparateur */
+.ligne {
+    border: none;
+    border-top: 1px solid #e5e5e5;
+    margin: 0 auto;
+    width: 90%;
+}
+
+/* Événements */
+.evenements {
+    padding: 80px 0;
+}
+
+.evenements-contenu {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.evenements-texte {
+    flex: 1;
+}
+
+.evenements-texte h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    line-height: 1.2;
+}
+
+.formulaire {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 30px;
+}
+
+/* Formulaire */
+.form-groupe {
+    margin-bottom: 20px;
+}
+
+.form-groupe label {
+    display: flex;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.form-groupe input,
+.form-groupe textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+}
+
+.form-groupe textarea {
+    height: 120px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox input {
+    width: auto;
+    margin-right: 10px;
+}
+
+/* Localisation */
+.localisation {
+    background-color: #AB864C;
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.localisation h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.adresse {
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.carte {
+    margin-top: 30px;
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 60px 0 20px;
+}
+
+.footer-logo{
+    filter: invert(100%)
+}
+
+.footer-contenu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.footer-logo, .footer-menu, .footer-contact, .footer-horaires, .footer-social {
+    flex: 1;
+    min-width: 200px;
+}
+
+footer h4 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #AB864C;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+.social-liens {
+    display: flex;
+    gap: 15px;
+}
+
+.social-liens a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #AB864C;
+    border-radius: 50%;
+    color: #000;
+}
+
+.footer-bas {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 20px;
+    text-align: center;
+}
+
+.mentions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 12px;
+}
+
+/* Responsive - écrans moyens */
+@media (max-width: 992px) {
+    .footer-logo {
+        flex-basis: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+/* Responsive - mobile */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    
+    nav ul li {
+        margin: 5px 0;
+    }
+    
+    .histoire-contenu {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .histoire-image {
+        margin-bottom: 30px;
+    }
+    
+    .evenements-contenu {
+        flex-direction: column;
+    }
+    
+    .produit {
+        flex-basis: 100%;
+    }
+    
+    .footer-contenu {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .social-liens {
+        justify-content: center;
+    }
+}
+
+/* Responsive - très petits écrans */
+@media (max-width: 576px) {
+    blockquote {
+        font-size: 20px;
+    }
+}

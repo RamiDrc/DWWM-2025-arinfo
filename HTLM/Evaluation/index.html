@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PATACHOU - Pâtisseries Haute Couture</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Kaisei+Decol:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="style/logo.svg" alt="PATACHOU">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">ACCUEIL</a></li>
+                    <li><a href="#">NOTRE SAVOIR-FAIRE</a></li>
+                    <li><a href="#">NOS PÂTISSERIES</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <img src="style/HAUTE-COUTURE.jpg" alt="Pâtisseries Haute Couture" class="banniere">
+
+    <section class="citation">
+        <div class="container">
+            <blockquote>
+                "De toutes les passions, la seule vraiment respectable me parait être la gourmandise."
+                <cite>Guy de Maupassant</cite>
+            </blockquote>
+        </div>
+    </section>
+
+    <section class="principe">
+        <div class="container">
+            <div class="encadre">
+                <p>
+                    Nos délicieux gâteaux sont confectionnés avec soin de manière artisanale, en utilisant des ingrédients bruts issus de l'agriculture biologique, tout en respectant rigoureusement les saisons. Sans conservateurs, sans colorants ni d'arômes artificiels, nos créations mettent en avant la pureté des saveurs.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="produits">
+        <div class="container">
+            <h2>Nos pâtisseries Signature</h2>
+            <div class="produits-liste">
+                <div class="produit">
+                    <img src="style/irresistible.jpg" alt="L'irrésistible">
+                    <h3>L'irrésistible</h3>
+                    <p>
+                        Le chou doré, légèrement croustillant, est garni d'une crème onctueuse à la pistache, dévoilant des saveurs subtiles et raffinées. Saupoudrée de pistaches concassées, la pâtisserie est sublimée par un équilibre parfait entre douceur fondante et touche croquante.
+                    </p>
+                </div>
+                <div class="produit">
+                    <img src="style/delicat.jpg" alt="Le délicat">
+                    <h3>Le délicat</h3>
+                    <p>
+                        La pâte feuilletée légère et dorée est imprégnée d'une délicate crème parfumée à la rose, laissant s'épanouir des arômes floraux subtils et envoûtants. Saupoudrée de pétales de rose, la pâtisserie est magnifiée par un équilibre entre douceur fondante et fraîcheur florale.
+                    </p>
+                </div>
+                <div class="produit">
+                    <img src="style/impetueux.jpg" alt="L'impétueux">
+                    <h3>L'impétueux</h3>
+                    <p>
+                        La pâte moelleuse est enrobée d'une ganache intense au chocolat noir, révélant des notes profondes et corsées à chaque bouchée. Sublimé par une fine couche de cacao amer, le dessert est magnifié par un contraste parfait entre l'onctuosité du chocolat et une légère amertume.
+                    </p>
+                </div>
+            </div>
+            <div class="centre">
+                <a href="#" class="bouton">Découvrir toutes nos délicieuses pâtisseries</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="histoire">
+        <div class="container">
+            <div class="histoire-contenu">
+                <div class="histoire-image">
+                    <img src="style/poche-douille_histoire-patachou.png" alt="Patachou Histoire">
+                </div>
+                <div class="histoire-texte">
+                    <h2><img src="style/quote.svg"> Patachou, toute une histoire...</h2>
+                    <p>
+                        Une petite pâtisserie familiale, fondée il y a plusieurs décennies, se transmet de génération en génération, préservant l'artisanat traditionnel et les recettes secrètes. Connue pour ses créations uniques et raffinées, elle devient au fil du temps un lieu incontournable pour les amateurs de douceurs. Malgré les défis modernes, la passion et le savoir-faire continuent de faire vivre cette enseigne, où chaque pâtisserie raconte une histoire d'amour du métier
+                    </p>
+                    <a href="#" class="bouton">Notre histoire</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="ligne">
+
+    <section class="evenements">
+        <div class="container">
+            <div class="evenements-contenu">
+                <div class="evenements-texte">
+                    <h2>Des gâteaux<br>pour votre événement ?</h2>
+                    <p>
+                        Pour vos événements exclusifs – anniversaire, séminaire d'entreprise ou réception privée – offrez à vos invités une sélection raffinée de pâtisseries, biscuits, mignardises et tartes, soigneusement élaborés pour sublimer chaque moment !
+                    </p>
+                </div>
+                <div class="formulaire">
+                    <form action="#" method="post">
+                        <div class="form-groupe">
+                            <label for="name">Votre nom et prénom</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-groupe">
+                            <label for="email">Votre email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-groupe">
+                            <label for="message">Votre message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <div class="form-groupe checkbox">
+                            <input type="checkbox" id="privacy" name="privacy" required>
+                            <label for="privacy">J'ai lu l'accepte la politique de confidentialité</label>
+                        </div>
+                        <button type="submit" class="bouton">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="localisation">
+        <div class="container">
+            <h2>Notre atelier et notre boutique</h2>
+            <p class="adresse">14 Boulevard Yvonne Poirel<br>49000 ANGERS</p>
+            <div class="carte">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2698.1234567890123!2d-0.563355684375!3d47.4781234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480878c3c5f8c5a5%3A0x42b2e4e3e3e3e3e3!2s14%20Boulevard%20Yvonne%20Poirel%2C%2049000%20Angers!5e0!3m2!1sfr!2sfr!4v1621234567890!5m2!1sfr!2sfr" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-contenu">
+                <div class="footer-logo">
+                    <img src="style/logo.svg" alt="PATACHOU">
+                </div>
+                <div class="footer-menu">
+                    <h4>Menu</h4>
+                    <ul>
+                        <li><a href="#">Accueil</a></li>
+                        <li><a href="#">Notre savoir-faire</a></li>
+                        <li><a href="#">Nos pâtisseries</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p>02 40 50 40 50</p>
+                    <p>14 Bd Yvonne Poirel</p>
+                    <p>49000 ANGERS</p>
+                </div>
+                <div class="footer-horaires">
+                    <h4>HORAIRES D'OUVERTURES</h4>
+                    <p>Mardi au vendredi : 11h - 19h</p>
+                    <p>Samedi : 10h30 - 19h</p>
+                </div>
+                <div class="footer-social">
+                    <h4>Suivez-nous</h4>
+                    <div class="social-liens">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bas">
+                <div class="mentions">
+                    <a href="#">Mentions légales</a>
+                    <a href="#">Politique de confidentialité</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

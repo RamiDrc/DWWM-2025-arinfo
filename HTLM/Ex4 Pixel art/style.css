@@ -1,4 +1,15 @@
 
+@font-face {
+  font-family: "ClaireHand";
+  src: url("./fonts/ClaireHandRegular.otf") format("truetype");
+}
+@font-face {
+  font-family: "Muli";
+  src: url("./fonts/Muli-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
 header {
   display: flex;
   justify-content: space-around;
@@ -22,7 +33,7 @@ header {
 }
 header h1 {
   color: white;
-  font: Muli, sans-serif;
+  font-family: "ClaireHand", sans-serif; 
   font-size: 2.2rem;
   margin: 0;
   padding: 0;
@@ -31,7 +42,7 @@ header h1 {
 header p {
   color: white;
   font-style: italic;
-  font: Muli, sans-serif;
+  font-family: "ClaireHand", sans-serif;
   font-size: 1rem;
   margin: 5px 0 0 0;
   padding: 0;
@@ -78,6 +89,7 @@ header select {
   max-width: 800px;
   margin: 20px;
   text-align: center;
+  font: clairehand, sans-serif;
 }
 .hero-content h2 {
   color: #000000;
@@ -97,9 +109,24 @@ header select {
   padding: 0 20px;
   background: #ffffff;
 }
+.scroll-arrow {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  cursor: pointer;
+  animation: bounce 2s infinite;
+}
+
+.scroll-arrow a {
+  display: block;
+}
+
 
 .categories-container h2 {
   color: #000000;
+  font: clairehand, sans-serif;
   text-align: center;
   font-size: 1.8em;
   font: clairehand, sans-serif;
@@ -151,6 +178,18 @@ footer p {
   font-size: 1rem;
   margin: 0;
   padding: 0;
+}
+.credits {
+  padding: 10px;
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+}
+.contact {
+  padding: 10px;
 }
 
 @media (max-width: 768px) {
