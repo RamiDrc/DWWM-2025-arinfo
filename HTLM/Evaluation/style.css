@@ -57,6 +57,8 @@ img {
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
     display: flex;
+    align-items: center;
+    justify-content: left;
 }
 
 /* Centrer un élément */
@@ -218,6 +220,10 @@ cite {
     margin-bottom: 30px;
     line-height: 1.8;
 }
+
+.histoire-texte a {
+    display: inline-block;
+}   
 
 /* Séparateur */
 .ligne {
