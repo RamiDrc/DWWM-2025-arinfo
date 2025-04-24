@@ -1,0 +1,61 @@
+@import "variables";
+
+
+//Exercise 1
+header {
+    background-color: $primary-color;
+  }
+  
+footer {
+    color: $secondary-color;
+  }
+
+//Exercise 2
+.container {
+    padding: 20px;
+    
+    h1 {
+      font-size: 2rem;
+      text-transform: uppercase;
+    }
+    
+    p {
+      line-height: 1.6;
+    }
+  }
+
+
+//Exercise 3
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box {
+    @include flex-center;
+  }
+
+
+//Exercise 4
+@mixin border-radius($radius) {
+    border-radius: $radius;
+  }
+  
+  .button {
+    @include border-radius(5px);
+  }
+  
+  .card {
+    @include border-radius(10px);
+  }
+
+//Exercise 5
+
+.button {
+    background-color: $primary-color;
+    border: darken($primary-color, 10%);  
+  }
+  .mixed-element {
+    background-color: $mixed-color;
+    color: darken($mixed-color, 30%);
+}
